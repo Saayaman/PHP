@@ -1,0 +1,8 @@
+# document root folder on an Apache folder
+# configuration directives that seta a value are preceded by php value
+php_value error_reporting 32767
+php_flag display errors on
+
+
+# time zone setting for US West Coast
+php_value date.timezone America/Los_Angeles
